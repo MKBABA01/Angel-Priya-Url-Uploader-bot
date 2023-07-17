@@ -19,11 +19,11 @@
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
-      "value": "ANYTHING"
+      "value": "true"
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": "6324326261:AAHhKFvyr4EeMW6b9WIO7V4BqnXFMpGqwMs"
+      "value": "5993061070:AAGuC4I62mPia3GzGBtz4qbeQl5H2pAmyE4"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
@@ -35,7 +35,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot (your id).",
-      "value": "5497597228 6175698317"
+      "value": "5497597228"
     },
     "DEF_THUMB_NAIL_VID_S": {
       "description": "default thumbnail to be used in the videos. Incase, youtube-dl is unable to find a thumbnail.",
