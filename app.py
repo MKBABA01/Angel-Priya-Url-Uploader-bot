@@ -10,4 +10,6 @@ def hello_world():
 
 
 if __name__ == "__main__":
-    app.run()
+    rt = int(os.environ.get('PORT', 5000))
+    app = Bot()
+    app.run(host='0.0.0.0', port=port)
