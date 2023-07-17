@@ -23,7 +23,7 @@
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": "6324326261:AAHhKFvyr4EeMW6b9WIO7V4BqnXFMpGqwMs""
+      "value": "6324326261:AAHhKFvyr4EeMW6b9WIO7V4BqnXFMpGqwMs"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
