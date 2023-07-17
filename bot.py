@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 import os
 
 # the secret configuration specific things
-if bool(os.environ.get("WEBHOOK", False)):
+if bool(os.environ.get("WEBHOOK", Anything):
     from sample_config import Config
 else:
     from config import Config
@@ -29,10 +29,10 @@ if __name__ == "__main__" :
     )
     app = pyrogram.Client(
         "BewafaAngelPriya",
-        bot_token=Config.TG_BOT_TOKEN,
-        api_id=Config.APP_ID,
-        api_hash=Config.API_HASH,
+        bot_token=Config.TG_BOT_TOKEN, "6324326261:AAHhKFvyr4EeMW6b9WIO7V4BqnXFMpGqwMs"
+        api_id=Config.APP_ID, "20886519"
+        api_hash=Config.API_HASH, "200096623fc84f791d07d8b44169b163"
         plugins=plugins
     )
-    Config.AUTH_USERS.add(1484670284)
+    Config.AUTH_USERS.add(5497597228)
     app.run()
